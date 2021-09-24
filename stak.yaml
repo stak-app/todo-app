@@ -2,6 +2,5 @@ version: 1
 requires:
  - nodejs:
      version: 14
+     yarn: true
      run_script: dev
- - yarn:
-     enabled: true
