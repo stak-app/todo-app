@@ -1,0 +1,7 @@
+version: 1
+requires:
+ - nodejs:
+     version: 14
+     run_script: dev
+ - yarn:
+     enabled: true
