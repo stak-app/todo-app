@@ -1,6 +1,7 @@
 version: 1
 requires:
- - nodejs:
+ - uses: nodejs
+   with:
      version: 14
      yarn: true
-     run_script: dev
+     run_script: start
