@@ -1,7 +1,7 @@
 version: 1
 requires:
- - uses: nodejs
-   with:
-     version: 14
-     yarn: true
-     run_script: start
+  - uses: nodejs
+    with:
+      version: 12
+      yarn: true
+      run_script: start
