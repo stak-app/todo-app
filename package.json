@@ -2,7 +2,7 @@
   "name": "simple-todos",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite",
+    "start": "vite --port=5000",
     "build": "vite build",
     "serve": "vite preview"
   },
