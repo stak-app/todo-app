@@ -1,7 +1,13 @@
 version: 1
-requires:
-  - uses: nodejs
+
+import:
+  nodejs:
     with:
+      package_manager: yarn
       version: 12
-      yarn: true
       run_script: start
+  
+commands:
+  default: 
+    steps:
+       - from: nodejs:start
