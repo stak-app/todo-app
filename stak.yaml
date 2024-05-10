@@ -4,7 +4,7 @@ import:
   nodejs:
     with:
       package_manager: yarn
-      version: 12
+      version: 18
       run_script: start
   
 commands:
